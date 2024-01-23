@@ -1,1 +1,1 @@
-# -medical-identification-of-pancreatic-cancer-
+# [MedicalProject] Identification of pancreatic cancer
