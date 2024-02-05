@@ -1,4 +1,4 @@
-# [MedicalProject] Convolutional neural network model for automatic recognitionand classification of pancreatic cancer cell based on analysis of lipid droplet on unlabeled sample by 3D optical diffraction tomography
+# Convolutional neural network model for automatic recognitionand classification of pancreatic cancer cell based on analysis of lipid droplet on unlabeled sample by 3D optical diffraction tomography
 
 > Computer Methods and Programs in Biomedicine, 2024. (IF: 6.1, JCR 13.1%)
 
