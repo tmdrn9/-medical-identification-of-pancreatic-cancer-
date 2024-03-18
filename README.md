@@ -6,23 +6,24 @@
 1. [Overview](#Overview)
 2. [Introduction](#Introduction)
 3. [Dataset composition](#Dataset-composition)
-4. [Setup](#Setup)
-5. [Getting started](#Getting-started)
-6. [Training](#Training)
+4. [Main results](#Main-Results)
+5. [Setup](#Setup)
+6. [Getting started](#Getting-started)
+7. [Training](#Training)
     - [Single Task Setting]
     - [Multi-view Task Setting]
     - [Multi-Task Setting]
     - [Modal-Task Setting(meta-data)]
     - [Final Task Setting(multi-view, multi-task, meta-data)]
     
-7. [Evaluating](#Evaluating)
+8. [Evaluating](#Evaluating)
     - [Single Task Setting]
     - [Multi-view Task Setting]
     - [Multi-Task Setting]
     - [Modal-Task Setting(meta-data)]
     - [Final Task Setting(multi-view, multi-task, meta-data)]
-8.  [Acknowledgments](#Acknowledgments)
-9.  [Citation](#Citation)
+9.  [Acknowledgments](#Acknowledgments)
+10.  [Citation](#Citation)
 
 # Overview
 ![스크린샷 2024-02-05 171501](https://github.com/tmdrn9/Medical-Identification_of_pancreatic_cancer/assets/77779116/26649b96-d580-48da-9e79-62919cc48ae2)
@@ -67,7 +68,7 @@
          `-- normal
               `-- H6c7
 
-# Main Results
+# Main results
 ### Results on Ablation study
 ||AUC|Accuracy|F1-score|Precision|Recall|
 |:----------|----|----|----|----|----|
