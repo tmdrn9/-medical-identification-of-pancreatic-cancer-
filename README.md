@@ -10,19 +10,20 @@
 4. [Getting started](#Getting-started)
 5. [Setup](#Setup)
 6. [Training](#Training)
-    - [Single Task Setting](#Single-Task-Setting)
-    - [Multi-view Task Setting](#Multi-view-Task-Setting)
-    - [Multi-Task Setting](#Multi-Task-Setting)
-    - [Modal-Task Setting(meta-data)](#Modal-Task-Setting)
-    - [Final Task Setting(multi-view, multi-task, meta-data)](#Final-Task-Setting)
+    - [Single Task Setting]
+    - [Multi-view Task Setting]
+    - [Multi-Task Setting]
+    - [Modal-Task Setting(meta-data)]
+    - [Final Task Setting(multi-view, multi-task, meta-data)]
     
 7. [Evaluating](#Evaluating)
-    - [Single Task Setting](#Single-Task-Setting)
-    - [Multi-view Task Setting](#Multi-view-Task-Setting)
-    - [Multi-Task Setting](#Multi-Task-Settin)
-    - [Modal-Task Setting(meta-data)](#Modal-Task-Setting)
-    - [Final Task Setting(multi-view, multi-task, meta-data)](#Final-Task-Setting)
-8.  [Citation](#Citation)
+    - [Single Task Setting]
+    - [Multi-view Task Setting]
+    - [Multi-Task Setting]
+    - [Modal-Task Setting(meta-data)]
+    - [Final Task Setting(multi-view, multi-task, meta-data)]
+8.  [Acknowledgments](#Acknowledgments)
+9.  [Citation](#Citation)
 
 # Overview
 ![스크린샷 2024-02-05 171501](https://github.com/tmdrn9/Medical-Identification_of_pancreatic_cancer/assets/77779116/26649b96-d580-48da-9e79-62919cc48ae2)
@@ -128,6 +129,10 @@
 ## Final Task Setting
 
     python evaluate_multitask.py --kernel-type meta --k-fold 4 --data-folder original_stone/ --enet-type tf_efficientnet_b3_ns --n-epochs 20 --image-size 256 --batch-size 16 --use-meta --GROUPING
+
+# Acknowledgments
+
+> This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT: Ministry of Science and ICT) (No. 2022R1C1C1006242).
 
 # Citation
 
