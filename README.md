@@ -6,9 +6,8 @@
 1. [Overview](#Overview)
 2. [Introduction](#Introduction)
 3. [Dataset composition](#Dataset-composition)
-
-4. [Getting started](#Getting-started)
-5. [Setup](#Setup)
+4. [Setup](#Setup)
+5. [Getting started](#Getting-started)
 6. [Training](#Training)
     - [Single Task Setting]
     - [Multi-view Task Setting]
@@ -69,8 +68,6 @@
               `-- H6c7
 
 
-# Getting started
-
 # Setup
 - Python 3.8
 - CUDA Version 12.4
@@ -85,7 +82,25 @@
 3. Install various necessary packages in requirements.txt
 
         pip install -r requirements.txt
- 
+   
+# Getting started
+When using Terminal, directly execute the code below after setting the path
+
+        python train.py --enet-type CFTNet --n-epochs 20 --batch-size 32 --task-type P --img-type close
+
+When using pycharm:
+
+        Menu Run 
+        -> Edit Configuration 
+        -> Check train.py in Script path
+        -> Go to parameters and enter the following
+
+        --enet-type CFTNet --n-epochs 20 --batch-size 32 --task-type P --img-type close
+
+        -> Running/debugging after check Apply button
+
+As training progresses, the best and final weights are saved in the folder `./weights/`. Learning logs are saved in the `./logs/` folder.
+
 # Training
 ## Single Task Setting
 
