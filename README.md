@@ -33,7 +33,7 @@
 > Pancreatic cancer cells generally accumulate large numbers of lipid droplets (LDs), which regulate lipid storage. To promote rapid diagnosis, an automatic pancreatic cancer cell recognition system based on a deep convolutional neural network was proposed in this study using quantitative images of LDs from stain-free cytologic samples by optical diffraction tomography.
 # Dataset composition
 
-    ${POSE_ROOT}
+    ${ROOT}
      `-- cell
          |-- cancer
          |    |-- BxPc-3
