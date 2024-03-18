@@ -71,7 +71,20 @@
 ## Getting started
 
 ## Setup
+- Python 3.8
+- CUDA Version 12.4
+- cuDNN Version 8.9.7
 
+1. Nvidia driver, Anaconda install
+
+2. Install pytorch
+
+        pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+3. Install various necessary packages in requirements.txt
+
+        pip install -r requirements.txt
+ 
 ## Training
 
 ## Evaluating
