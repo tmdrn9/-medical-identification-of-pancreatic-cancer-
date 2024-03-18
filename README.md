@@ -86,7 +86,7 @@
 # Getting started
 When using Terminal, directly execute the code below after setting the path
 
-        python train.py --enet-type CFTNet --n-epochs 20 --batch-size 32 --task-type P --img-type close
+        python train.py --kernel-type baseline --k-fold 4 --data-folder original_stone/ --enet-type tf_efficientnet_b3_ns --n-epochs 20 --image-size 256 --batch-size 16
 
 When using pycharm:
 
@@ -95,7 +95,7 @@ When using pycharm:
         -> Check train.py in Script path
         -> Go to parameters and enter the following
 
-        --enet-type CFTNet --n-epochs 20 --batch-size 32 --task-type P --img-type close
+        --kernel-type baseline --k-fold 4 --data-folder original_stone/ --enet-type tf_efficientnet_b3_ns --n-epochs 20 --image-size 256 --batch-size 16
 
         -> Running/debugging after check Apply button
 
