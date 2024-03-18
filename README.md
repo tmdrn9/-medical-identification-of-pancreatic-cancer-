@@ -67,6 +67,18 @@
          `-- normal
               `-- H6c7
 
+# Main Results
+### Results on Ablation study
+||AUC|Accuracy|F1-score|Precision|Recall|
+|:----------|----|----|----|----|----|
+|Baseline|0.985|94.39|0.955|0.969|0.942|
+|Modal-Task|0.987|95.52|0.965|0.972|0.958|
+|Multi-view Task|0.995|97.59|0.981|0.988|0.974|
+|Multi-view & Modal Task|0.996|96|0.987|0.985|0.988|
+|Final Task|0.998|96.77|0.988|0.992|0.985|
+### Note:
+- Input Image size is 256x256
+- Backbone network is EfficientNet-b3
 
 # Setup
 - Python 3.8
